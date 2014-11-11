@@ -1,0 +1,10 @@
+[package]
+
+name = "test_to_source_expr_flattening"
+version = "0.0.1"
+authors = ["Loïc Damien <loic.damien@dzamlo.ch>"]
+
+[lib]
+name = "test_to_source_expr_flattening"
+plugin = true
+
