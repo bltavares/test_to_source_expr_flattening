@@ -1,6 +1,5 @@
-#![feature(phase)]
-
-#[phase(plugin)]
+#![feature(plugin)]
+#![plugin(test_to_source_expr_flattening)]
 extern crate test_to_source_expr_flattening;
 
 #[test]
